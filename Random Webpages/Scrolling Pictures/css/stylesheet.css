@@ -1,0 +1,52 @@
+﻿#scrollImage{
+    position:absolute;
+    width:800px;
+    height: 500px;
+    
+    -webkit-animation-name: fadeinout;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count : infinite;
+    -webkit-animation-timing-function : ease-in-out;
+
+    animation-name: fadeinout;
+    animation-duration: 20s;
+    animation-iteration-count : infinite;
+    animation-timing-function: linear;
+
+    opacity: 0;
+}
+
+.image1 {    
+    background: red;
+}
+
+.image2 {
+    background: blue;
+    animation-delay : 7.778s;
+}
+
+.image3 {
+    background: green;
+    animation-delay : 15.556s;
+}
+
+.image4 {
+    background: cyan;
+    animation-delay : 23.334s;
+}
+
+@-webkit-keyframes fadeinout {
+    0% {opacity:0; left:0;}
+    10% { opacity: 1; left:500px}
+    40% { opacity: 1; left:500px}
+    50% {opacity:0; left:1000px}
+    100% {opacity:0; left:0;}
+}
+
+@keyframes fadeinout {
+    0% {opacity:0; left:-400px;}
+    10% { opacity: 1; left:500px}
+    40% { opacity: 1; left:500px}
+    50% {opacity:0; left:1400px}
+    100% {opacity:0; left:0;}
+}
