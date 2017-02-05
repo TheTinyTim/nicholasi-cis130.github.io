@@ -1,0 +1,35 @@
+﻿/*
+    Hotel Natoma style sheet
+    File 		    : styles.css
+    Author 		    : Nicholas Ingram
+    Date 		    : 2/4/2017
+    Course 		    : CIS 130-116
+    Unit 		    : HTML5 and CSS3 Illustrated Unit C, Independent Challenge 3
+    GitHub Url      : https://github.com/TheTinyTim/nicholasi-cis130.github.io/blob/master/Unit_C/IC3/styles.html
+*/
+h1
+{
+    background-color:darkgreen;
+    color:white;
+}
+
+h2
+{
+    color:darkgreen;
+    text-align:center;
+}
+
+p
+{
+    text-align:center;
+}
+
+.contactInfo
+{
+    text-align:right;
+}
+
+footer
+{
+    background-color:darkseagreen;
+}
