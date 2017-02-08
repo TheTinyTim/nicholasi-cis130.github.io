@@ -4,12 +4,12 @@
     height: 500px;
     
     -webkit-animation-name: fadeinout;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 40s;
     -webkit-animation-iteration-count : infinite;
     -webkit-animation-timing-function : ease-in-out;
 
     animation-name: fadeinout;
-    animation-duration: 20s;
+    animation-duration: 40s;
     animation-iteration-count : infinite;
     animation-timing-function: linear;
 
@@ -22,31 +22,31 @@
 
 .image2 {
     background: blue;
-    animation-delay : 7.778s;
+    animation-delay : 7.55s;
 }
 
 .image3 {
     background: green;
-    animation-delay : 15.556s;
+    animation-delay : 15.1s;
 }
 
 .image4 {
     background: cyan;
-    animation-delay : 23.334s;
+    animation-delay : 22.65s;
 }
 
 @-webkit-keyframes fadeinout {
     0% {opacity:0; left:0;}
     10% { opacity: 1; left:500px}
-    40% { opacity: 1; left:500px}
-    50% {opacity:0; left:1000px}
+    20% { opacity: 1; left:500px}
+    30% {opacity:0; left:1000px}
     100% {opacity:0; left:0;}
 }
 
 @keyframes fadeinout {
     0% {opacity:0; left:-400px;}
     10% { opacity: 1; left:500px}
-    40% { opacity: 1; left:500px}
-    50% {opacity:0; left:1400px}
+    20% { opacity: 1; left:500px}
+    30% {opacity:0; left:1400px}
     100% {opacity:0; left:0;}
 }
