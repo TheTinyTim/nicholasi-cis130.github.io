@@ -1,0 +1,33 @@
+﻿img
+{
+    display:block;
+    margin:auto;
+    width:40%;
+}
+ul
+{
+    width:40%;
+    margin:auto;
+    font-size:20px;
+}
+p, h1, h2
+{
+    text-align:center
+}
+h1
+{
+    font-size:50px;
+}
+p
+{
+    font-size:20px;
+}
+b 
+{
+    color: red;
+    font-size: large;
+}
+.foot
+{
+    text-align:right;
+}
