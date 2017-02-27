@@ -1,0 +1,104 @@
+/* 
+   Eating Well in Season style sheet 
+   Filename: styles.css
+
+   Author:  Nicholas Ingram 
+   Date:     2/19/17
+   HTML5 and CSS3 Illustrated Unit E, Independent Challenge 4
+ */
+
+/* reset styles */
+article, body, div, footer, header, h1, h2, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   font-size:12px;
+}
+
+/* body and page container */
+.container {
+   max-width: 800px;
+   margin: 0 auto;
+}
+body
+{
+    font-family:Alegreya sans-serif,Arial,Arial, Helvetica, sans-serif;
+    background-color:rgb(170,189,126);
+}
+p
+{
+    font-size:1.6em;
+    font-family:Verdana,Geneva,sans-serif;
+}
+.container
+{
+    background-color:hsl(53,91%,61%);
+    box-shadow:inset,0,0,3px,5px,rgb(170,189,126);
+}
+
+/* header section */
+header {
+   padding: 0 1em;
+   text-align: center;
+   background-color:rgb(161,127,67);
+   box-shadow:inset,0,0,3px,5px,rgb(170,189,126);
+}
+header h1 {
+   padding-top: 0.4em;
+   color:hsl(53,91%,61%);
+   font-size:4.6em;
+   line-height:0.8em;
+}
+header p {
+   padding: 0.4em 0 0.8em;
+   color: floralwhite;
+}
+
+/* main content */
+article {
+   width: 62.5%;
+   float: left;
+   background-color: floralwhite;
+   box-shadow:inset,5px,0,3px,5px,rgb(170,189,126);
+}
+article h2 {
+   margin: 0.4em 0.4em 0;
+   color:rgb(152,192,61);
+   font-size:2.8em;
+   font-weight:normal;
+}
+article p {
+   margin: 0 1em 0.4em 1.4em;
+}
+
+/* sidebar */
+aside {
+   width: 37.5%;
+   float: right;
+}
+aside h2 {
+   padding: 0.4em;
+   font-size;2.8em;
+   line-height:0.8em;
+   font-weight:normal;
+}
+aside p {
+   padding-left: 1.4em;
+}
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: black;
+   color: floralwhite;
+   text-align: center;
+   clear: both;
+   box-shadow:inset,0,0,3px,5px,rgb(170,189,126);
+}
+footer span
+{
+    color:rgb(161,127,67);
+}
+footer p {
+   margin: 0.4em;
+}
