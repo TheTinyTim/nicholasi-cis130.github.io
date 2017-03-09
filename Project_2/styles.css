@@ -1,0 +1,142 @@
+﻿/* 
+    Amy Cakes style sheet 
+    Filename: styles.css
+
+    Author:   Nicholas Ingram
+    Date:     3/8/2017
+    Project 2
+
+    Colors for website (hex)
+        #00B29D - Dark Cyan (Sidebar)
+        #19FFE4 - Cyan
+        #00FFE1 - Lighter Cyan
+        #B23700 - Dark Orange
+        #FF6B29 - Light Orange
+*/
+
+/* reset styles */
+html {
+   font-size: 14px;
+   font-family: "Griffy", Arial, Helvetica, sans-serif;
+}
+article, aside, body, div, footer, header, h1, h2, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* header elements */
+header 
+{
+    background-color: #19FFE4;
+}
+
+header img 
+{
+    display: block;
+    margin: auto;
+}
+
+/* site navigation */
+
+nav.sitenavigation
+{    
+    background-color: #00B29D;
+    overflow: hidden;
+    width: 100%;    
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+
+nav.sitenavigation ul
+{
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav.sitenavigation li
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline;
+    border-right: 1px solid #000000;
+}
+
+nav.sitenavigation li:last-child
+{
+    border-right: none;
+}
+
+nav.sitenavigation a
+{
+    font-size: 25px;
+    text-align: center;
+    color: #B23700;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+    text-decoration: none;
+    display: inline-block;    
+}
+
+nav.sitenavigation a:hover
+{
+    background-color: #0098B2;
+}
+
+nav.sitenavigation a:active
+{
+    background-color: #007FB2;
+}
+
+/* main content */
+article
+{
+    display:inline-block;
+    font-size: 35px;
+    margin: -6px auto;    
+    padding: 1%;
+    background-color: #19FFE4;
+    border: 2px solid black;
+}
+
+article img
+{
+    margin: 0 20px 0 0;  
+    border: 5px solid #333;
+    overflow: auto;
+    float: left;
+    display: block;
+}
+
+/* footer */
+footer
+{
+    padding: 0.5%;
+    background-color: #19FFE4;
+    border: 2px solid black;
+}
+
+footer p
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media print
+{
+    article, aside, body, div, footer, header, h1, h2, p 
+    {
+        color: black;
+        background-color: white;
+    }
+
+    nav
+    {
+        display: none;
+    }
+}
