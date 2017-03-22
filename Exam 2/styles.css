@@ -1,0 +1,152 @@
+/*
+    styles.css
+    Nicholas Ingram
+    Exam 2
+*/
+
+html
+{
+    font-size: 14px;
+}
+
+header, footer, nav, article, section, .container, .row, p
+{
+	margin:0;
+}
+
+
+/*Body, Row, and Page Container Styles*/
+.container
+{
+	margin:0 auto;
+	min-width:350px;
+    width: 50%;
+    border: 2px solid black;
+    box-shadow: 10px 10px 75px 20px #a5a5a5;
+}
+
+.row
+{
+	display:flex;
+}
+
+article
+{
+    width: 85%;
+    background-color: darkcyan;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-right: 3em;
+    padding-left: 3em;
+}
+
+/*Main Content Styles*/
+
+
+section
+{
+	margin:0 auto;
+    width: 75%;
+}
+
+p
+{
+    font-size: 1.4em;
+}
+
+h1, h2, h3
+{
+    line-height: 1.5em;
+}
+h1
+{
+    font-size: 2.4em;
+}
+h2
+{
+    font-size: 2em;
+}
+h3
+{
+    font-size: 1.6em;
+}
+
+
+
+/* Mainholder Styles */
+#mainholder
+{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: cyan;
+    color: orangered;
+}
+
+/*Navigation Styles*/
+
+nav
+{
+	padding:2em 1em;
+    width: 15%;
+    background-color: cyan;
+}
+
+nav p
+{
+	padding:0.8em 0;
+}
+
+a:focus, a:hover
+{
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+a:visited
+{
+    color: mediumpurple;
+}
+
+/*Footer Styles*/
+footer
+{
+	padding:1em 0;
+    background-color: deepskyblue;
+    color: coral;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Print Style Rules */
+@media print
+{
+    header, footer, article, section, .container, p, span
+    {
+        background-color: white;
+        color: black;
+    }
+
+    body
+    {
+        max-width: 100%;
+    }
+
+    .container
+    {
+        box-shadow: none;
+        border: none;
+        width: 100%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+}
+@page
+{
+    margin: 0.5in;
+}
