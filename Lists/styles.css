@@ -1,0 +1,24 @@
+﻿/* 
+   Lists
+   Filename: lists.css
+
+   Author:   Nicholas Ingram
+   Date:     4/4/2017
+ */
+
+ol .romanList
+{
+    list-style-type: lower-roman;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr:hover
+{
+    background-color: #ffff00;
+}
