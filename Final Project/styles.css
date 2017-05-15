@@ -1,0 +1,133 @@
+﻿/* 
+    Images used all belong to The Pitch Pizza & Pub            
+
+    The Pitch Pizza & Pub
+    Filename: styles.css
+
+    Author:   Nicholas Ingram
+    Date:     5/15/2017
+    Final Project
+*/
+
+.logo {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-color: white;
+    position: relative;
+}
+
+/* Navigation */
+nav.sitenavigation
+{
+    border-top: 3px solid black;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;  
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+}
+
+nav.sitenavigation ul
+{
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav.sitenavigation li
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline;
+    /*border-right: 1px solid white;*/
+    font-size: 15px;
+}
+
+nav.sitenavigation li:last-child
+{
+    border-right: none;
+}
+
+nav.sitenavigation a
+{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+    text-decoration: none;
+    display: inline-block;    
+}
+
+nav.sitenavigation li.currentPage {
+    background-color: white;
+    color: black;
+    
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+    text-decoration: none;
+    display: inline-block; 
+}
+
+nav.sitenavigation a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+nav.sitenavigation a:active
+{
+    background-color: grey;
+}
+
+/* Body */
+article h1 {
+    text-align: center;
+}
+
+article p {
+    max-width: 70%;
+    margin: auto;
+
+    font-size: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+tr, td {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Forms */
+form {
+    margin: auto;
+    width: 40%;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+    text-align: right;
+    margin: auto;
+    height: 20px;
+}
